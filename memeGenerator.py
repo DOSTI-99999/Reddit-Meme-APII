@@ -2,8 +2,8 @@ import praw
 from random import choice
 import os
 
-reddit = praw.Reddit(client_id=os.getenv("CLIENT_ID"),
-                     client_secret=os.getenv("CLIENT_SECRET"),
+reddit = praw.Reddit(client_id=os.getenv("9a8ByvHQz3sJoLsLqOb6VQ"),
+                     client_secret=os.getenv("jshU-io739rUVLCKOojGncifRB3n6Q"),
                      user_agent=os.getenv("USER_AGENT")
                      )
 
